@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'home.dart';
 import 'map.dart';
-//import 'notification.dart';
-//import 'message.dart';
-//import 'alarm.dart';
-//import 'stats.dart';
-//import 'buttons.dart';
+import 'notification.dart';
+import 'message.dart';
+import 'alarm.dart';
+import 'stats.dart';
+import 'buttons.dart';
 
 class NavigationPage extends StatefulWidget {
   const NavigationPage({super.key});
@@ -102,15 +102,15 @@ class _NavigationPageState extends State<NavigationPage> {
 
         const MapPage(),
 
-//        const StatPage(),
+        const StatPage(),
 
-//        const AlarmPage(),
+        const AlarmPage(),
 
-//        const NotificationPage(),
+        const NotificationPage(),
 
-//        const MessagePage(),
+        const MessagePage(),
 
-//        ButtonPage(),
+        ButtonPage(),
       ][currentPageIndex],
     );
   }

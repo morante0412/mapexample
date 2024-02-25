@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
       child: SizedBox.expand(
         child: Center(
           child: Text(
-            'Home page',
+            'Home Page',
           ),
         ),
       ),

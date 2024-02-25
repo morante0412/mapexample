@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class StatPage extends StatelessWidget {
-  const StatPage({super.key});
+class AlarmPage extends StatelessWidget {
+  const AlarmPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class StatPage extends StatelessWidget {
       child: SizedBox.expand(
         child: Center(
           child: Text(
-            'Stat Page',
+            'Alarm page',
           ),
         ),
       ),
